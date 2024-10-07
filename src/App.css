@@ -1,0 +1,8 @@
+.MuiTab-textColorPrimary {
+  max-width: unset;
+  flex: 1;
+}
+
+.MuiInputBase-root {
+  background: transparent;
+}
