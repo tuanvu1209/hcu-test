@@ -1,28 +1,57 @@
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/89cc55c4-e604-47ed-ba13-7b74d8c1390d">
+
+
+---
+
 ## Getting Started
 
-### Installation
-To get started with the project, follow the steps below:
+### Prerequisites
+- **Yarn**: `1.22.19`
+- **Node.js**: `v20.9.0`
+- **npm**: `10.1.0`
 
-1. Clone the repository:
+### Installation
+Follow these steps to set up and run the project:
+
+1. **Clone the Repository**  
+   Use the following command to clone the repository and navigate into your project directory:
 
    ```bash
-   git clone git@github.com:anhtuandev2001/oe-js-test.git
+   git clone git@github.com:anhtuandev2001/hcu-test.git
    cd your-repo
    ```
 
-2. Install dependencies by running the following command in the root folder:
+2. **Install Dependencies**  
+   In the root folder, run the following command to install the required packages:
 
    ```bash
-   npm install
+   yarn
    ```
 
 ### Running the Project
-Once the installation is complete, you can start the development server with:
+
+Once the dependencies are installed, start the development server with:
 
 ```bash
-npm run dev
+yarn dev
 ```
 
-This will start the project at `http://localhost:5173/` (or a different port if configured).
+The project will be available at `http://localhost:5173/` (or a different port, if configured).
 
-<img width="1438" alt="image" src="https://github.com/user-attachments/assets/4ada3f06-85c9-478b-b9b4-5107e50a0031">
+### Additional Commands
+
+3. **Run Storybook**  
+   Start Storybook for isolated component development:
+
+   ```bash
+   yarn storybook
+   ```
+
+4. **Run Tests**  
+   Execute the test suite with:
+
+   ```bash
+   yarn test
+   ```
+
+---
